@@ -35,7 +35,7 @@ const Logo = () => {
             fontWeight="bold"
             ml={3}
           >
-            LiviuDev
+            AdeDev
           </Text>
         </LogoBox>
       </a>

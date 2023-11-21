@@ -5,7 +5,6 @@ import { GridItem } from '../components/grid-item'
 
 import NOPOSTS from '../public/images/contents/noposts.png'
 
-
 const Posts = () => (
   <Layout title="Posts">
     <Container>
@@ -14,9 +13,7 @@ const Posts = () => (
       </Heading>
 
       <Section delay={0.1}>
-        <SimpleGrid columns={[1, 2, 2]} gap={6}>
-         
-        </SimpleGrid>
+        <SimpleGrid columns={[1, 2, 2]} gap={6}></SimpleGrid>
       </Section>
 
       <Section delay={0.5}>

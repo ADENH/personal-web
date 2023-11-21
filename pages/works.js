@@ -5,7 +5,6 @@ import { WorkGridItem } from '../components/grid-item'
 
 import thumbDeleted from '../public/images/works/deleted.png'
 
-
 const Works = () => (
   <Layout title="Works">
     <Container>
@@ -15,7 +14,11 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem id="deleted" title="Work Deleted..." thumbnail={thumbDeleted}>
+          <WorkGridItem
+            id="deleted"
+            title="Work Deleted..."
+            thumbnail={thumbDeleted}
+          >
             This project has been deleted.
           </WorkGridItem>
         </Section>
@@ -39,7 +42,11 @@ const Works = () => (
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>
-          <WorkGridItem id="deleted" thumbnail={thumbDeleted} title="Work Deleted">
+          <WorkGridItem
+            id="deleted"
+            thumbnail={thumbDeleted}
+            title="Work Deleted"
+          >
             This project has been deleted.
           </WorkGridItem>
         </Section>
@@ -64,7 +71,11 @@ const Works = () => (
           </WorkGridItem>
         </Section>
         <Section delay={0.3}>
-          <WorkGridItem id="deleted" thumbnail={thumbDeleted} title="Work Deleted...">
+          <WorkGridItem
+            id="deleted"
+            thumbnail={thumbDeleted}
+            title="Work Deleted..."
+          >
             This project has been deleted.
           </WorkGridItem>
         </Section>
@@ -79,8 +90,12 @@ const Works = () => (
       </Section>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
-           <Section delay={0.5}>
-          <WorkGridItem id="deleted" thumbnail={thumbDeleted} title="Work Deleted...">
+        <Section delay={0.5}>
+          <WorkGridItem
+            id="deleted"
+            thumbnail={thumbDeleted}
+            title="Work Deleted..."
+          >
             This project has been deleted.
           </WorkGridItem>
         </Section>
@@ -94,13 +109,17 @@ const Works = () => (
           </WorkGridItem>
         </Section>
         <Section delay={0.6}>
-          <WorkGridItem id="deleted" thumbnail={thumbDeleted} title="Work Deleted...">
+          <WorkGridItem
+            id="deleted"
+            thumbnail={thumbDeleted}
+            title="Work Deleted..."
+          >
             This project has been deleted.
           </WorkGridItem>
         </Section>
       </SimpleGrid>
     </Container>
-  </Layout> 
+  </Layout>
 )
 
 export default Works
